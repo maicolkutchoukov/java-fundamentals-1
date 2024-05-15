@@ -1,6 +1,5 @@
 package org.learning;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -25,5 +24,6 @@ public class MetGala {
         } else {
             System.out.println("Accesso Negato! Puoi tornare da dove sei venuto.");
         }
+        scanner.close();
     }
 }

@@ -12,5 +12,6 @@ public class TrainTicket {
         Per acquisire l’input dell’utente usate la classe Scanner, come visto stamattina a lezione.
         */
 
+
     }
 }

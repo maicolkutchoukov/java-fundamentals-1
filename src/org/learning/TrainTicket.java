@@ -28,5 +28,6 @@ public class TrainTicket {
         }
 
         System.out.println("End");
+        scanner.close();
     }
 }

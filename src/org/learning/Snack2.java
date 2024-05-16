@@ -11,8 +11,10 @@ public class Snack2 {
             System.out.println("Inserisci il numero compreso tra 1 e 20");
             n = Integer.parseInt(scanner.nextLine());
         } while (n < 1 || n > 20);
-        int result = n * n * n;
-        System.out.println("Il cubo di " + n + " è " + result);
+        for (int i = 1; i <= n; i++) {
+            int result = i * i * i;
+            System.out.println("Il cubo di " + i + " è " + result);
+        }
 
         scanner.close();
     }
